@@ -21,31 +21,45 @@ h2 {
   display:inline-block;
   text-align: right;
   width: 450px;
+  padding-right: 10px;
+  margin-right: 10px;
 }
 .selfie {
-  width: 450px;
+  width: 400px;
   display: inline-block;
   border-color: #c0c0c0;
   border-width: thin;
   margin:25px;
 }
 .About {
-  width: 450px;
+  width: 970px;
   display: inline-block;
   font-size: 10
 }
-#projects_box {
+.about img {
+  display: inline-block;
+}
+#about_text{
+  display: inline-block;
+  width: 410px;
+}
+.projects_box {
   display: block;
+  height: 500px;
 }
 .Projects {
   width: 275px;
-  height: 300px;
+  height: 400px;
   display:inline-block;
   vertical-align: top;
-  background: blue;
+  background: #f4f4f4;
+  margin-left: 25px;
+  margin-bottom: 0;
 }
 .Projects p{
   height: 150px;
+  text-align: left;
+  vertical-align: middle;
 }
 .projpic {
   width: 275px;
@@ -55,16 +69,24 @@ h2 {
   width:275px;
   display: inline-block;
   vertical-align: top;
-  background: pink;
+  background: #f4f4f4;
+  margin-top: 0;
+  border: 0
 }
 .icon {
-  width: 50px;
+  width: 45px;
   display: inline-block;
+  padding-left: 5px;
 }
 .footer {
   height:250px;
   width: 970px;
   background: yellow;
-  display:block;
+  display: inline;
   vertical-align: bottom;
+  padding-top: 30px;
+  
+}
+.footer p{
+  display: inline-block;
 }
