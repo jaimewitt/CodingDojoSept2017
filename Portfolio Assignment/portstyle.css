@@ -1,0 +1,70 @@
+
+
+.wrapper {
+  height: 1500px;
+  width: 970px;
+  background: purple;
+  margin: 0;
+}
+
+.header{
+  width: 970px;
+  background: #f4f4f4;
+  display: inline-block;
+}
+h1 {
+  display:inline-block;
+  text-align: left;
+  width: 450px;
+}
+h2 {
+  display:inline-block;
+  text-align: right;
+  width: 450px;
+}
+.selfie {
+  width: 450px;
+  display: inline-block;
+  border-color: #c0c0c0;
+  border-width: thin;
+  margin:25px;
+}
+.About {
+  width: 450px;
+  display: inline-block;
+  font-size: 10
+}
+#projects_box {
+  display: block;
+}
+.Projects {
+  width: 275px;
+  height: 300px;
+  display:inline-block;
+  vertical-align: top;
+  background: blue;
+}
+.Projects p{
+  height: 150px;
+}
+.projpic {
+  width: 275px;
+  display: inline-block;
+}
+.Technologies {
+  width:275px;
+  display: inline-block;
+  vertical-align: top;
+  background: pink;
+}
+.icon {
+  width: 50px;
+  display: inline-block;
+}
+.footer {
+  height:250px;
+  width: 970px;
+  background: yellow;
+  display:block;
+  vertical-align: bottom;
+}
