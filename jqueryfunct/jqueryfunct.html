@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('#clicktest button').click(function(){
+          window.open("https://www.google.com/");
+        })
+        $('#hide button').click(function(){
+          $('#hide p').hide();
+        })
+        $('#toggle button').click(function(){
+          $('#toggle img').toggle();
+        })
+        $('#slidetoggle button').click(function(){
+          $('#slidetoggle img').slideToggle('slow');
+        })
+        $('#append button').click(function(){
+          $('#append').append('<img src="lokitty.png" alt="This is Loki Cat.">');
+        })
+
+      })
+
+    </script>
+  </head>
+  <body>
+    <div id='clicktest'>
+      <button type="button" name='button'>Open Google in a New Window</button>
+    </div>
+    <div id='hide'>
+      <button type="button" name="button">Hide a paragraph</button>
+        <p>This is a paragraph that I am going to hide, because it's boring.</p>
+    </div>
+    <div id='toggle'>
+      <button type="button" name="button">this is a Toggle</button>
+      <img src="on.png" alt="On">
+    </div>
+    <div id='slidetoggle'>
+      <button type="button" name="button">Slide this image</button>
+      <img src="wylie.jpg" alt="this is Wylie Coyote">
+    </div>
+    <div id='append'>
+      <button type="button" name="button">Append Lokitty</button>
+      <p>This is a paragraph. Paragraphs are cool. What's cooler? Paragraphs with pictures of Lokitty.</p>
+    </div>
+
+
+
+
+
+
+
+  </body>
+</html>
